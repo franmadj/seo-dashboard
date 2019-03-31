@@ -14,7 +14,7 @@ class Controller extends BaseController {
         ValidatesRequests;
 
     function __construct() {
-        checkLastAdminSite();
+        //checkLastAdminSite();
     }
 
     protected function validationErrorResponse(\Exception $e) {
