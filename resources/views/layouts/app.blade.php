@@ -75,7 +75,7 @@
             @yield('content')
         </main>
     </div>
-    <button class="open-button" onclick="document.getElementById("myForm").style.display = "block";">Chat</button>
+    <button class="open-button" onclick="document.getElementById('myForm').style.display = 'block';">Chat</button>
 
     <div class="chat-popup" id="myForm">
       <form action="/action_page.php" class="form-container">
@@ -85,7 +85,7 @@
         <textarea placeholder="Type message.." name="msg" required></textarea>
 
         <button type="submit" class="btn">Send</button>
-        <button type="button" class="btn cancel" onclick="document.getElementById("myForm").style.display = "none";">Close</button>
+        <button type="button" class="btn cancel" onclick="document.getElementById('myForm').style.display = 'none';">Close</button>
       </form>
     </div>
 </body>
