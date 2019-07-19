@@ -11,6 +11,7 @@ use App\Transformers\CampaignTransformer;
 use App\Services\Searches\BingSearch;
 
 class CampaignController extends Controller {
+    
 
     /**
      * Display a listing of the resource.
