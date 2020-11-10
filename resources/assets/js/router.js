@@ -1,13 +1,13 @@
 import Vue from 'vue'
 //import store from './state/store'
 import VueRouter from 'vue-router'
-import Messeging from './components/Dashboard.vue'
-import Settings from './components/Settings.vue'
-import Campaigns from './components/Campaigns.vue'
-import Campaign from './components/Campaign.vue'
-import Searches from './components/Searches.vue'
-import Contacts from './components/Contacts.vue'
-import Templates from './components/Messeging.vue'
+import dash from './components/Dashboard.vue'
+//import Settings from './components/Settings.vue'
+//import Campaigns from './components/Campaigns.vue'
+//import Campaign from './components/Campaign.vue'
+//import Searches from './components/Searches.vue'
+//import Contacts from './components/Contacts.vue'
+//import Templates from './components/Messeging.vue'
 
 
 const Bus = new Vue({})
@@ -22,60 +22,60 @@ const router = new VueRouter({
   routes: [
     {
       path: '/home',
-      component: Messeging,
+      component: dash,
       meta: {
         auth: true,
         home: true
       }
     },
-    {
-      path: '/settings',
-      component: Settings,
-      meta: {
-        auth: true,
-        settings: true
-      }
-    },
-    {
-      path: '/campaigns',
-      component: Campaigns,
-      meta: {
-        auth: true,
-        campaigns: true
-      }
-    },
-    {
-      path: '/campaign/:id',
-      component: Campaign,
-      meta: {
-        auth: true,
-        campaigns: true
-      }
-    },
-    {
-      path: '/search-results/:id/:name',
-      component: Searches,
-      meta: {
-        auth: true,
-        campaigns: true
-      }
-    },
-    {
-      path: '/contacts',
-      component: Contacts,
-      meta: {
-        auth: true,
-        contacts: true
-      }
-    },
-    {
-      path: '/templates',
-      component: Templates,
-      meta: {
-        auth: true,
-        contacts: true
-      }
-    },
+//    {
+//      path: '/settings',
+//      component: Settings,
+//      meta: {
+//        auth: true,
+//        settings: true
+//      }
+//    },
+//    {
+//      path: '/campaigns',
+//      component: Campaigns,
+//      meta: {
+//        auth: true,
+//        campaigns: true
+//      }
+//    },
+//    {
+//      path: '/campaign/:id',
+//      component: Campaign,
+//      meta: {
+//        auth: true,
+//        campaigns: true
+//      }
+//    },
+//    {
+//      path: '/search-results/:id/:name',
+//      component: Searches,
+//      meta: {
+//        auth: true,
+//        campaigns: true
+//      }
+//    },
+//    {
+//      path: '/contacts',
+//      component: Contacts,
+//      meta: {
+//        auth: true,
+//        contacts: true
+//      }
+//    },
+//    {
+//      path: '/templates',
+//      component: Templates,
+//      meta: {
+//        auth: true,
+//        contacts: true
+//      }
+//    },
   ]
   
   
